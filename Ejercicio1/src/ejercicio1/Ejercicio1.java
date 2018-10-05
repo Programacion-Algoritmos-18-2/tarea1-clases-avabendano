@@ -11,11 +11,14 @@ package ejercicio1;
  */
 public class Ejercicio1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Instanciacion de la clase
+        Estudiante est1 = new Estudiante("Maria", 18, 1856664828);
+        Estudiante est2 = new Estudiante("Pepe", 22, 184555276);
+
+        // Prueba de metodo
+        est1.asignar_ciclo(5);
+        System.out.printf("El ciclo del estudiante 1 es: %d\n", est1.ciclo);
     }
-    
+
 }
